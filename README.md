@@ -21,3 +21,10 @@ Store data in localStorage.
 Apply JavaScript to trigger animations.
 
 Happy Coding! 💻✨
+
+
+## project/
+├── index.html
+├── style.css
+└── script.js
+

@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2em;
+  background-color: #f9f9f9;
+}
+
+.section {
+  margin: 2em 0;
+}
+
+select {
+  margin-top: 0.5em;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+img {
+  margin-top: 1em;
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-30px); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.bounce {
+  animation: bounce 0.5s ease;
+}
+
+.spin {
+  animation: spin 1s linear;
+}
+
+.fade {
+  animation: fade 1s ease-in-out;
+}
